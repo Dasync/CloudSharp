@@ -104,3 +104,7 @@ service OrderService
   command ShipItems(Order order) { ..... }
 }
 ```
+
+## Why CloudSharp
+
+The ability to describe higher level concepts using the syntax of a programming language itself produces at least [5 times less code](https://medium.com/@sergiis/conquest-of-distributed-systems-part-3-actor-model-hidden-in-plain-sight-b06126a62ae), makes the program more readable, saves a lot of time to understand and maintain a multi-service application.
